@@ -1,0 +1,22 @@
+.SectionButton{
+    background-color: #fd5631;
+    color: white;
+    width: 25%;
+    
+}
+
+.SectionButton:hover
+{
+    box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+-webkit-box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+-moz-box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+background-color: #fd5631;
+}
+
+@media (max-width: 991px)
+{
+    .SectionButton
+    {
+        width: 50%;
+    }
+}

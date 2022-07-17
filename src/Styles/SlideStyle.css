@@ -1,0 +1,58 @@
+.ImageClass
+{
+    z-index: -111;
+    position: relative;
+}
+
+.Drop
+{
+    position: absolute;
+    z-index: 1111;
+    top: 5%;
+}
+
+
+.Heading
+{
+    font-size: 66px;
+    font-weight: 600;
+}
+
+.Para
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@media (max-width: 825px)
+{
+
+    .Heading{
+        font-size: 38px;
+        width: 350px;
+    }
+
+    .Para
+    {
+        width: 400px;
+    }
+    
+}
+
+@media (min-width: 400px){
+
+    .Heading{
+        font-size: 38px;
+        width: 350px;
+        margin-right: 10px;
+    }
+
+    .Para
+    {
+        width: 322px;
+        margin-right: 10px;
+    }
+
+    
+
+}

@@ -1,0 +1,58 @@
+.card-section
+{
+    box-shadow: 0 .125rem .125rem -.125rem rgba(31,27,45,.08),0 .25rem .75rem rgba(31,27,45,.08)!important;
+}
+
+.card-section:hover{
+    box-shadow: -2px 5px 16px 0px rgba(115,105,105,0.75);
+-webkit-box-shadow: -2px 5px 16px 0px rgba(115,105,105,0.75);
+-moz-box-shadow: -2px 5px 16px 0px rgba(115,105,105,0.75) !important;
+}
+
+.HoverClass:hover{
+    background-color: #fd4f29;
+    border-radius: 50%;
+    padding: 32px;
+    color:white;
+}
+.CardHover{
+    background-color: #ffeeea;
+}
+
+.CardHover:hover{
+    background-color:#fd4f29; 
+    fill: white;
+}
+
+.Card-icon{
+    color: #fd4f29;
+    
+}
+
+.Card-icon:hover{
+
+    fill: white;
+}
+
+@media (max-width: 991px)
+{
+
+
+
+    .MarginClass
+    {
+        margin-top: 15%;
+    }
+}
+
+
+
+
+@media (max-width:400px)
+{
+    
+    .MarginClass
+    {
+        margin-top: 52%;
+    }
+}

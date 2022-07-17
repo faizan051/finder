@@ -1,0 +1,53 @@
+.btn-primary
+{
+    color: #9691a4;
+    background-color: white;
+    border: none;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle 
+{
+    background-color: white;
+   color: black;
+ 
+   
+}
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus 
+{
+    box-shadow: none;
+}
+
+.main-class {
+    box-shadow: 10px 10px 95px -45px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 95px -45px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 95px -45px rgba(0,0,0,0.75);
+    width: 80%;
+    align-items: center;
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: -15px;
+    z-index: 10;
+    margin-left: 10px;
+    position: absolute;
+}
+
+@media (max-width: 991px)
+{
+    .main-class {
+      margin-top: 6px;
+        width: 92%;
+    }
+
+    .WithStyles\(ForwardRef\(Slider\)\)-rail-6 {
+    height: 8px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.RangeSlide
+{
+    width: 56px;
+}
+}

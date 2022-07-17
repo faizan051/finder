@@ -1,0 +1,47 @@
+.Card-Button
+{
+    color: #fd5631;
+    border: 1px solid #fd5631;
+    font-weight: 600;
+}
+
+.Card-Button:hover{
+    color: white;
+    background-color: #fd5631;
+    border: none;
+}
+
+
+.MainCard{
+    border: none;
+    outline: none;
+}
+
+.card
+{
+    border: none;
+}
+
+.MainCard:hover{
+    box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+-webkit-box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+-moz-box-shadow: 3px 2px 19px 0px rgba(74,65,65,0.75);
+
+}
+
+.CardWidth
+{
+    width: '20rem';
+     border :"none" ;
+     outline: none;
+}
+
+@media (max-width: 991px)
+{
+
+    .CardWidth
+{
+    width: '16rem';
+     border :"none" ;
+}
+}

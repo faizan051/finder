@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 991px)
+  {
+  
+  }
+
+
+  @media (max-width:820px)
+  {
+    .navbar-expand
+    {
+      
+    }
+  }
