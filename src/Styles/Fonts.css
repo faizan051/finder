@@ -44,7 +44,7 @@ p{
 
 .MarginClass1
 {
-    top: 84%;
+    top: 95%;
     z-index: 11111;
     opacity: 1;
 }
@@ -52,5 +52,75 @@ p{
 .Main1
 {
     z-index: -111;
+
+}
+
+@media (max-width: 991px)
+{
+h1
+{
+ 
+    font-size: 40px;
+}
+
+.MarginClass1
+{
+    top: 35%;
+    z-index: 11111;
+    opacity: 1;
+ display: flex;
+    
+}
+
+.MarginClass
+{
+    margin-left: 90px;
+
+}
+}
+
+@media (max-width: 778px)
+{
+    
+h1
+{
+ 
+    font-size: 40px;
+    width: 112%;
+}
+
+p{
+    font-size: 17px;
+}
+
+.MarginClass1
+{
+    top: 38%;
+    z-index: 11111;
+    opacity: 1;
+ display: flex;
+    
+}
+
+}
+
+@media (max-width: 400px)
+{
+
+    .MarginClass1
+{
+    top: 82%;
+    z-index: 11111;
+    opacity: 1;
+ display: flex;
+    
+}
+
+.Sbtn
+{
+    margin-top: 40px;
+    
+    
+}
 
 }

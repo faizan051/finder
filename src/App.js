@@ -12,6 +12,7 @@ import Partner from './components/Partner';
 import Footer from './components/Footer';
 import TopMenu from './components/TopMenu';
 import HeroSec from './components/HeroSec';
+import NewCardSec from './components/NewCardSec';
 
 
 
