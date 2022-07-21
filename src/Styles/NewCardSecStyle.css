@@ -5,3 +5,15 @@
     
 
 }
+
+.TopMargin{
+    margin-top: 77px;
+}
+
+@media (max-width: 400px)
+{
+    
+    .TopMargin{
+        margin-top: 160px;
+    }
+}

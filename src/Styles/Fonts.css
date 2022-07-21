@@ -44,9 +44,10 @@ p{
 
 .MarginClass1
 {
-    top: 95%;
+    top: 99%;
     z-index: 11111;
     opacity: 1;
+    
 }
 
 .Main1
@@ -79,6 +80,19 @@ h1
 }
 }
 
+@media (max-width: 991px)
+{
+
+    .MarginClass1
+{
+    top: 42%;
+    z-index: 11111;
+    opacity: 1;
+ display: flex;
+    
+}
+}
+
 @media (max-width: 778px)
 {
     
@@ -95,7 +109,7 @@ p{
 
 .MarginClass1
 {
-    top: 38%;
+    top: 44%;
     z-index: 11111;
     opacity: 1;
  display: flex;
@@ -109,7 +123,7 @@ p{
 
     .MarginClass1
 {
-    top: 82%;
+    top: 90%;
     z-index: 11111;
     opacity: 1;
  display: flex;

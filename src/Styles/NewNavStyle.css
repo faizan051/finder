@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+.SignButton
+{
+   position: absolute;
+   right: 12%;
+    font-weight: bolder;
+}
+
+.AddBtn
+{
+    background-color: #fd5631;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.AddBtn:hover{
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.75);
+    background-color: #fd5631;
+    color: white;
+}
+
+
+@media (max-width: 991px)
+{
+    .SignButton
+{
+   
+    font-weight: bolder;
+}
+
+}

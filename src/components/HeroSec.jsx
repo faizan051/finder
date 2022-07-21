@@ -29,18 +29,18 @@ const HeroSec = () => {
   return (
     <div className="MainClass container-fluid">
 
-   <div className='row position-relative Main1'>
-   <div className='col-lg-6 col-md-6'>
+   <div className='row position-relative Main1 mt-lg-0'>
+   <div className='col-lg-6 col-md-6 mt-0'>
     <h1 className='fw-bold'>Easy way to find a perfect property</h1>
 <p className="mt-lg-5 mt-md-5">We provide a complete service for the sale, purchase or rental of real estate. We have been operating more than 10 years. Search millions of apartments and houses on Finder.</p>
    </div>
-<div className='col-lg-6 order-md-2 order-lg-2 mt-4 col-md-6 mt-md-5'>
-    <img src='./img/hero-image.png' className='w-100 mt-md-5' alt=''/>
+<div className='col-lg-6 order-md-2 order-lg-2 mt-4 col-md-6 mt-md-5 order-1'>
+    <img src='./img/hero-image.png' className='w-100 mt-md-5 mt-lg-0' alt=''/>
 </div>
    </div>
 
 
-<div className='row scrool container ms-lg-1 position-absolute MarginClass1 d-flex'>
+<div className='row scrool container ms-lg-1 position-absolute MarginClass1 d-flex mb-md-5 mb-5'>
 <div className='col-lg-2 d-flex me-lg-5 col-md-2 mt-md-3'>
 <HomeIcon className='mt-2'/> <Dropdown>
       <Dropdown.Toggle variant="light" id="dropdown-basic">

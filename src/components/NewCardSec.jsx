@@ -16,10 +16,10 @@ const NewCardSec = () => {
   return (
 
 
-    <Container className="mb-5">
-        <div className='row row-cols-lg-6 row-cols-sm-3 row-cols-2 g-3 g-xl-4 gx-5 g-lg-5'>
+    <Container className="mb-5 mt-lg-4 mt-md-5 mt-sm-4 ">
+        <div className='row row-cols-lg-6 row-cols-sm-3 row-cols-2 g-5 g-xl-5 gx-5 g-lg-5 mt-lg-4 ms-md-4 TopMargin'>
             <div className='col'>
-            <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+            <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 
@@ -33,8 +33,8 @@ const NewCardSec = () => {
    </Card>
             </div>
         
-        <div>
-        <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+        <div className="col">
+        <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 
@@ -49,7 +49,7 @@ const NewCardSec = () => {
         </div>
 
         <div className='col'>
-        <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+        <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 
@@ -64,7 +64,7 @@ const NewCardSec = () => {
         </div>
 
         <div className="col">
-        <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+        <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 
@@ -79,7 +79,7 @@ const NewCardSec = () => {
         </div>
 
         <div className="col">
-        <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+        <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 
@@ -87,14 +87,14 @@ const NewCardSec = () => {
 </div>
    </div>
      <Card.Body className="text-center">
-       <Card.Title>New Building</Card.Title>
+       <Card.Title>Building</Card.Title>
        
      </Card.Body>
    </Card>
         </div>
 
        <div className="col">
-       <Card style={{  width: '174px', height: '138px ' }} className="card-section mx-1">
+       <Card style={{  width: '150px', height: '138px ' }} className="card-section mx-1">
    <div className='Card-main d-flex align-content-center justify-content-center'>
 <div className='rounded-circle mt-4 p-2 CardHover' >
 

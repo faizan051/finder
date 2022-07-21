@@ -10,9 +10,9 @@ import CalcSection from './components/CalcSection';
 import SwiperSlider from './components/SwiperSlider';
 import Partner from './components/Partner';
 import Footer from './components/Footer';
-import TopMenu from './components/TopMenu';
 import HeroSec from './components/HeroSec';
 import NewCardSec from './components/NewCardSec';
+import NewNav from './components/NewNav';
 
 
 
@@ -20,11 +20,11 @@ function App() {
   return (
     <>
     
-    <TopNav/>
+    <NewNav/>
       
     <HeroSec/>
   
-    <Cardsection/>
+    <NewCardSec/>
     <MainCardSection/>
     <CalcSection/>
     <SwiperSlider/>
